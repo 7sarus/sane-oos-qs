@@ -1,0 +1,6 @@
+id=sane-oos-qs
+name=sane-oos-qs
+version=v1.2
+versionCode=3
+author=7sarus <63068332+7sarus@users.noreply.github.com>
+description=Sets Quick Settings & QQS columns to 6 (Portrait & Landscape) and unifies all active tiles and sliders under the system accent color.

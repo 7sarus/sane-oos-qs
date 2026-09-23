@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- QS Active Tiles Background and Accent -->
+    <color name="status_bar_qs_tile_bg_color_active">@android:color/system_accent1_500</color>
+    <color name="status_bar_qs_tile_accent_color_default">@android:color/system_accent1_500</color>
+    <color name="status_bar_qs_tile_accent_color_default_one_plus_ext">@android:color/system_accent1_500</color>
+    <color name="coui_color_primary_blue">@android:color/system_accent1_500</color>
+    <color name="coui_color_primary_blue_dark">@android:color/system_accent1_500</color>
+    <color name="couiBlueTintControlNormal">@android:color/system_accent1_500</color>
+
+    <!-- Brightness and Volume Slider Progress -->
+    <color name="brightness_slider_track">@android:color/system_accent1_500</color>
+    <color name="brightness_slider_overlay_color">@android:color/system_accent1_500</color>
+    <color name="status_bar_qs_brightness_slider_progress_color">@android:color/system_accent1_500</color>
+    <color name="status_bar_qs_brightness_slider_mirror_progress_color">@android:color/system_accent1_500</color>
+    <color name="status_bar_qs_brightness_slider_bg_color">#ff272828</color>
+    <color name="status_bar_qs_brightness_slider_mirror_bg_color">#ff272828</color>
+    <color name="status_bar_qs_brightness_toggle_checked_bg_color">@android:color/system_accent1_500</color>
+    <color name="status_bar_qs_brightness_toggle_normal_bg_color">#ff272828</color>
+    <color name="qs_seekbar_progress_color">@android:color/system_accent1_500</color>
+    <color name="oplus_volume_seekbar_progress">@android:color/system_accent1_500</color>
+    <color name="oplus_volume_bar_progress_background">@android:color/system_accent1_500</color>
+    <color name="oplus_super_volume_seekbar_progress_start">@android:color/system_accent1_500</color>
+    <color name="oplus_super_volume_seekbar_progress_end">@android:color/system_accent1_500</color>
+
+    <!-- Material/MD3 sliders mapped to the same OOS accent family. -->
+    <color name="m3_slider_active_track_color">@android:color/system_accent1_500</color>
+    <color name="m3_slider_active_tick_marks_color">@android:color/system_accent1_500</color>
+    <color name="m3_slider_thumb_color">@android:color/system_accent1_500</color>
+    <color name="m3_slider_inactive_track_color">@android:color/system_accent1_500</color>
+    <color name="m3_slider_inactive_tick_marks_color">@android:color/system_accent1_500</color>
+    <color name="material_slider_active_track_color">@android:color/system_accent1_500</color>
+    <color name="material_slider_active_tick_marks_color">@android:color/system_accent1_500</color>
+    <color name="material_slider_thumb_color">@android:color/system_accent1_500</color>
+    <color name="material_slider_inactive_track_color">@android:color/system_accent1_500</color>
+    <color name="material_slider_inactive_tick_marks_color">@android:color/system_accent1_500</color>
+    <color name="material_slider_halo_color">@android:color/system_accent1_500</color>
+
+    <!-- Slider/QS icons: keep resource-driven tint paths white. -->
+    <color name="dark_mode_qs_icon_color_single_tone">#ffffffff</color>
+    <color name="light_mode_qs_icon_color_single_tone">#ffffffff</color>
+
+    <!-- PacMan device (CPH2723) color filter overrides — these are applied via
+         SRC_ATOP after the global-theme clearColorFilter, re-darkening icons.
+         Setting to white makes the filter a no-op on white vectors. -->
+    <color name="op_pm_tint_color">#ffffffff</color>
+    <color name="op_pm_turquoise">#ffffffff</color>
+
+    <!-- Notification Action Buttons -->
+    <color name="coui_button_sub_disable">@android:color/system_accent1_500</color>
+    <color name="notification_action_rounded_bg_color">@android:color/system_accent1_500</color>
+    <color name="notification_color_primary_neutral_default">#ffffffff</color>
+    <color name="smart_reply_button_background">@android:color/system_accent1_500</color>
+    <color name="smart_reply_button_stroke">@android:color/system_accent1_500</color>
+    <color name="smart_reply_button_text">#ffffffff</color>
+</resources>

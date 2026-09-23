@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tell OxygenOS / SystemUI that a global theme is active to disable hardcoded white blur shader on sliders. -->
+    <bool name="status_bar_qs_icon_bg_drawable_global_theme">true</bool>
+</resources>

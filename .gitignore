@@ -1,0 +1,9 @@
+LOCAL_LLM_HANDOFF.md
+LLM-HANDOFF.md
+build/
+system/
+*.zip
+*.apk
+*.idsig
+testkey.keystore
+update_handoff.py
