@@ -6,10 +6,11 @@ cd "$(dirname "$0")"
 echo "=== Building sane-oos-qs KernelSU Module ==="
 
 # Tool discovery
-AAPT2="${AAPT2:-$HOME/Android/Sdk/build-tools/36.1.0/aapt2}"
-ZIPALIGN="${ZIPALIGN:-$HOME/Android/Sdk/build-tools/36.1.0/zipalign}"
-APKSIGNER="${APKSIGNER:-$HOME/Android/Sdk/build-tools/36.1.0/apksigner}"
-ANDROID_JAR="${ANDROID_JAR:-$HOME/Android/Sdk/platforms/android-34/android.jar}"
+SDK_ROOT="${ANDROID_HOME:-$HOME/Android/Sdk}"
+AAPT2="${AAPT2:-$SDK_ROOT/build-tools/36.1.0/aapt2}"
+ZIPALIGN="${ZIPALIGN:-$SDK_ROOT/build-tools/36.1.0/zipalign}"
+APKSIGNER="${APKSIGNER:-$SDK_ROOT/build-tools/36.1.0/apksigner}"
+ANDROID_JAR="${ANDROID_JAR:-$SDK_ROOT/platforms/android-34/android.jar}"
 
 for tool in "$AAPT2" "$ZIPALIGN" "$APKSIGNER" "$ANDROID_JAR"; do
     if [ ! -e "$tool" ]; then
